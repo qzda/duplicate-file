@@ -2,11 +2,6 @@
 
 A CLI tool to find duplicate files locally, with a web service for previewing and deleting them.
 
-## Features
-
-- Support text file preview
-- Support batch download
-
 ## Usage
 
 ```bash
