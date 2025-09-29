@@ -1,4 +1,4 @@
-# duplicate-file
+# duplicate-file (🚧 In Dev)
 
 A CLI tool to find duplicate files locally, with a web service for previewing and deleting them.
 
