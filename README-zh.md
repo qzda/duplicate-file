@@ -1,19 +1,19 @@
-# duplicate-file-removal
+# duplicate-file
 
 是一个 CLI 工具，用来查看本地重复文件，并提供 web 服务预览/删除。
 
 ## 使用
 
 ```bash
-npx duplicate-file-removal "C:/User/qzda/Pictures/"
+npx duplicate-file "C:/User/qzda/Pictures/"
 # or
 cd C:/User/qzda/Pictures/
-npx duplicate-file-removal .
+npx duplicate-file .
 
 # 指定扩展名
-npx duplicate-file-removal . -e js,ts
+npx duplicate-file . -e js,ts
 # 自定义端口
-npx duplicate-file-removal . -p 3001
+npx duplicate-file . -p 3001
 ```
 
 ## 选项
@@ -30,5 +30,5 @@ npx duplicate-file-removal . -p 3001
 ```bash
 bun i
 bun dev
-# duplicate-file-removal <path> [options]
+# duplicate-file <path> [options]
 ```

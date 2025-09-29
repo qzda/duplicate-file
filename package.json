@@ -1,5 +1,5 @@
 {
-  "name": "duplicate-file-removal",
+  "name": "duplicate-file",
   "version": "1.0.0",
   "description": "CLI tool to find and remove duplicate files.",
   "main": "bin/main.js",
@@ -22,12 +22,12 @@
     "@types/bun": "latest"
   },
   "bin": {
-    "duplicate-file-removal": "bin/index.js"
+    "duplicate-file": "bin/index.js"
   },
   "readme": "",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/qzda/duplicate-file-removal.git"
+    "url": "git+https://github.com/qzda/duplicate-file.git"
   },
   "keywords": [
     "http server",
@@ -43,7 +43,7 @@
   "author": "qzda <qinzhidaoa@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/qzda/duplicate-file-removal/issues"
+    "url": "https://github.com/qzda/duplicate-file/issues"
   },
-  "homepage": "https://github.com/qzda/duplicate-file-removal#readme"
+  "homepage": "https://github.com/qzda/duplicate-file#readme"
 }

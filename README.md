@@ -1,19 +1,19 @@
-# duplicate-file-removal
+# duplicate-file
 
 A CLI tool to find duplicate files locally, with a web service for previewing and deleting them.
 
 ## Usage
 
 ```bash
-npx duplicate-file-removal "C:/User/qzda/Pictures/"
+npx duplicate-file "C:/User/qzda/Pictures/"
 # or
 cd C:/User/qzda/Pictures/
-npx duplicate-file-removal .
+npx duplicate-file .
 
 # Specify file extensions
-npx duplicate-file-removal . -e js,ts
+npx duplicate-file . -e js,ts
 # Custom port
-npx duplicate-file-removal . -p 3001
+npx duplicate-file . -p 3001
 ```
 
 ## Options
@@ -30,5 +30,5 @@ This project depends on [`Bun`](https://bun.sh).
 ```bash
 bun i
 bun dev
-# duplicate-file-removal <path> [options]
+# duplicate-file <path> [options]
 ```

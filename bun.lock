@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "duplicate-file-removal",
+      "name": "duplicate-file",
       "dependencies": {
         "@qzda/prolog": "latest",
         "adm-zip": "^0.5.16",
