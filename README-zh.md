@@ -1,19 +1,19 @@
-# duplicate-file
+# duplicate-file-doctor
 
 是一个 CLI 工具，用来查看本地重复文件，并提供 web 服务预览/删除。
 
 ## 使用
 
 ```bash
-npx duplicate-file "C:/User/qzda/Pictures/"
+npx duplicate-file-doctor "C:/User/qzda/Pictures/"
 # or
 cd C:/User/qzda/Pictures/
-npx duplicate-file .
+npx duplicate-file-doctor .
 
 # 指定扩展名
-npx duplicate-file . -e js,ts
+npx duplicate-file-doctor . -e js,ts
 # 自定义端口
-npx duplicate-file . -p 3001
+npx duplicate-file-doctor . -p 3001
 ```
 
 ## 选项
@@ -30,5 +30,5 @@ npx duplicate-file . -p 3001
 ```bash
 bun i
 bun dev
-# duplicate-file <path> [options]
+# duplicate-file-doctor <path> [options]
 ```

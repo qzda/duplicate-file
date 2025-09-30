@@ -1,19 +1,19 @@
-# duplicate-file (🚧 In Dev)
+# Duplicate File Doctor (🚧 In Dev)
 
 A CLI tool to find duplicate files locally, with a web service for previewing and deleting them.
 
 ## Usage
 
 ```bash
-npx duplicate-file "C:/User/qzda/Pictures/"
+npx duplicate-file-doctor "C:/User/qzda/Pictures/"
 # or
 cd C:/User/qzda/Pictures/
-npx duplicate-file .
+npx duplicate-file-doctor .
 
 # Specify file extensions
-npx duplicate-file . -e js,ts
+npx duplicate-file-doctor . -e js,ts
 # Custom port
-npx duplicate-file . -p 3001
+npx duplicate-file-doctor . -p 3001
 ```
 
 ## Options
@@ -30,5 +30,5 @@ This project depends on [`Bun`](https://bun.sh).
 ```bash
 bun i
 bun dev
-# duplicate-file <path> [options]
+# duplicate-file-doctor <path> [options]
 ```
